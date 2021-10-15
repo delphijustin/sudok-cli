@@ -275,6 +275,7 @@ newgame;goto printpuzzle;
   case keychoice of
   1,2,3,4,5,6,7,8,9,10:begin y:=keychoice;if(y=10)then y:=0;end;
   11:exitprocess(0);
+  12:goto printpuzzle;
   end;
 if not psudokupuzzle(@puzzledat.Enabled)^[row,col]=0then begin
 writeln('That square cannot be changed, press enter to continue');readln;
