@@ -1,4 +1,7 @@
-<?php
+<?php 
+/*
+Web based sudoku to work with most browsers.
+*/
 $csudoku_exe="/cygdrive/c/sudoku-console-main/csudoku.exe";//path to csudoku.exe
 $rooturl="/";//the url directory where sudoku.php exists
 $puzzle="";
