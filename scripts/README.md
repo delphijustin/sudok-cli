@@ -1,4 +1,4 @@
-This folder contains puzzles in batch file format or linux shell script
+This folder contains puzzles in batch file format.
 
 They are compressed as a 7-zip file to save space & faster download
 
